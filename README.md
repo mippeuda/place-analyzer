@@ -1,5 +1,9 @@
 # 네이버 플레이스 분석기 v2.3 (무료·키 없이 동작)
 
+**배포 주소:** https://place-analyzer-mippeuda.vercel.app/ (같은 프로젝트 별칭: https://place-analyzer-sooty.vercel.app/)
+
+GitHub `main` 브랜치에 파일이 올라가면 Vercel이 자동으로 다시 배포합니다.
+
 ## 무엇이 달라졌나
 
 v2.2까지는 순위 조회에 유료·회원제 외부 API(Rankfree) 키가 필요했습니다. 이 버전은 **API 키 없이** 네이버 모바일 플레이스(`m.place.naver.com`)의 검색 결과를 서버에서 직접 읽어 순위를 계산합니다.
